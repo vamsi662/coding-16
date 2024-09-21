@@ -1,0 +1,29 @@
+.item {
+  width: 26%;
+  border: 1px solid #b5b7c4;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  color: #171f46;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.btn {
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 0;
+}
+
+.date {
+  color: #b5b7c4;
+}

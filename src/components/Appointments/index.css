@@ -1,0 +1,80 @@
+.bg-container {
+  display: flex;
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.appointment-container {
+  padding: 60px;
+  background-color: white;
+  width: 95%;
+  border-radius: 10px;
+}
+
+.add-appointment-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  color: #b5b7c4;
+}
+
+.input {
+  border: 1px solid #b5b7c4;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.add-btn {
+  background-color: #8b5cf6;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.separator {
+  border-top: 1px solid #b5b7c4;
+  padding: 0;
+  margin: 0;
+}
+
+.starred-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointments {
+  font-size: 30px;
+}
+
+.starred-button {
+  color: #b5b7c4;
+  border: 1px solid #b5b7c4;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.starred-button-true {
+  color: #9897f0;
+  border: 1px solid #9897f0;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.appointmentlist-con {
+  display: flex;
+}
